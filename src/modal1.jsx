@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './modal.scss'
-import Minimize from './minimize.svg'
 
 export default function Modal({ show, children, closeModal, minimize, setMinimize }) {
   const [inputValue, setInputValue] = useState('')
@@ -48,7 +47,7 @@ export default function Modal({ show, children, closeModal, minimize, setMinimiz
           </button>
         </div>
       </div> */}
-      <p>Minimized Modal</p>
+      <p>Minimized Modal1</p>
     </div>
     )
   }
@@ -87,7 +86,7 @@ export default function Modal({ show, children, closeModal, minimize, setMinimiz
       </div>
       <div className="Modal-content">
         <div className="Modal-body">
-          <h4>Modal</h4>
+          <h4>Modal1</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vitae enim deleniti quidem tempora earum? Voluptate, quae adipisci facere aliquam odit ex veritatis officiis maiores quos eius ea vitae cum!</p>
           <input value={inputValue} onChange={e => setInputValue(e.target.value)} />
         </div>
